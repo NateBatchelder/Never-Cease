@@ -11,8 +11,8 @@ body {
     background-color: #9ea0a1;
 }
 
-.header {
-    position: -webkit-sticky;
+.container-md {
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0px;
     display: flex;
@@ -56,8 +56,12 @@ a {
     padding-right: 25px;
 }
 
-.landing-image {
-    height: 200px;
+p {
+    font-size: 16px;
+}
+
+.landingImage {
+    height: 400px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/roadLessTraveled.png");
@@ -97,9 +101,9 @@ a {
     font-size: 24px;
 }
 
-.never-cease img,
+.neverCease img,
 .work img,
-.projects img{
+.projects img {
     max-height: 100px;
 }
 
@@ -128,14 +132,41 @@ a {
 
 .contactEmail,
 .contactPhone,
-.contactGitHub {
+.contactGitHub,
+.contactBlurb {
     margin-bottom: 32px;
     color: black;
 }
 
 .contactEmail h3,
 .contactPhone h3,
-.contactGitHub h3 {
+.contactGitHub h3,
+.contactPhone h4 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+.contactEmail img,
+.contactPhone img,
+.contactGitHub img,
+.contactBlurb img {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    max-width: 75px;
+    max-height: 75px;
+}
+
+.footer {
+    padding: 30px;
+    margin-top: 30px;
+    color: #b7d9b1;
+    background-color: #9ea0a1;
+    clear: both;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
+}
+
+.footer h2 {
+    font-size: 20px;
 }

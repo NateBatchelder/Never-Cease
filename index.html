@@ -12,21 +12,24 @@
 </head>
 
 <body>
-    <section class="landingImage">
-        <img src="./assets/images/roadLessTraveled.png" alt="scenic panorama"/></section>
-    <header class="container-md">
-        <ol>
-            <li>
-                <a href="#nateBatchelder"><h1>Nate Batchelder</h1></a>
-            </li>
-            <ul class = "list-group-horizontal">
-                <li class="list-group-item"><a href="#neverCease">'Never Cease'</a></li>
-                    
-                <li class="list-group-item"><a href="#experience">Experience</a></li>
-                    
-                <li class="list-group-item"><a href="#portfolioProjects">Portfolio Projects</a></li>
-            </list-group-horizontal>
-        </ol>
+    <section class="landingImage" alt="scenic panorama"></section>
+    <header class="header">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#nateBatchelder"><h1>Nate Batchelder</h1></a>
+                </li>
+                <li>
+                    <a href="#neverCease">'Never Cease'</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#portfolioProjects">Portfolio Projects</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <section class="content">
@@ -36,8 +39,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eaque cupiditate natus exercitationem molestiae ullam aut modi tempore libero, aperiam ea totam dignissimos deserunt iste rerum sunt maxime qui optio beatae fugit. Accusantium cupiditate amet quae qui perferendis libero nam quidem, voluptatem quod voluptas, eius cumque dolore assumenda ab at?</p>>
         </article>
         
-        
-        <article id="experience" class="work">
+        <article id="work" class="work">
             <img src="./assets/images/fullstack.png" alt="Icons representing programs from the full stack developer course" class="float-right"/>
             <h2>Experience</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio tempore, sunt repellat, incidunt cupiditate iusto ducimus alias velit distinctio cum laboriosam non accusamus ipsa reprehenderit atque voluptates perspiciatis architecto. Fuga repellendus autem ab at recusandae magni dolores, vel magnam dicta voluptatum aliquam quae nulla consequuntur sed soluta illum odit necessitatibus.</p>
@@ -48,25 +50,52 @@
                 <h2>Portfolio Projects</h2>
                 <h3>Project 1</h3>
                 <img src="./assets/images/3dcubes.jpeg" alt="icons project 1" class="float-right"/>
-            <br/>
+                <br/>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo aperiam veniam quod provident sit cumque beatae nostrum ipsum, necessitatibus voluptas sunt ipsam maxime laudantium minima quo modi odio quibusdam debitis.</p>
             </details>
 
             <details id="project2">
-                <img src="" alt="iconProject2" class="float-left"/>
+                <img src="./assets/images/tessellation2.jpeg" alt="icon project 2" class="float-left"/>
                 <h3>Project 2</h3>
                 <br/>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti vel natus neque dolore quaerat laudantium delectus sequi accusamus veniam nemo nisi, iusto perferendis eveniet unde officia temporibus, distinctio hic. Quis commodi rerum iusto unde, tempore sit dignissimos quasi vitae laborum veritatis laudantium. Soluta tempora omnis, nesciunt debitis quia quos autem.</p>
             </details>
             
-            <details class="id">
-                <img src="" alt="" class=""/>
+            <details id="project3">
+                <img src="./assets/images/tessellation3.jpeg" alt="icon project 3" class="float-left"/>
                 <h3>Project 3</h3>
                 <br/>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit cupiditate neque aliquid debitis fugiat modi quidem distinctio voluptatibus at tempora, consequuntur aliquam consequatur rerum enim illo autem molestiae, optio quaerat. Culpa velit nemo praesentium, non unde excepturi sapiente. Vel, illo?</p>
             </details>
         </article>
-    
+
+        <aside id="contact" class="contact">
+            <!-- contact me -->
+            <!-- use <p> tags to separate out methods of contact -->
+            <article class="contactEmail">
+                <img src="./assets/images/gmail-icon.png" alt="gmail icon" />
+                <h3>email</h3>
+            </article>
+                <!-- when hovered, change icon to opened email -->
+                <!-- prompt user to compose email -->
+            <article class="contactPhone">
+                <img src="./assets/images/new phone.jpeg" alt="smartphone icon" />
+                <h3>phone</h3>
+                <h4>774-722-2276</h4>
+            </article>
+            <!-- phone needs a 'transparent' background -->
+                <!-- when hovered, change to wringing phone -->
+                <!-- when hovered, offer option to call via phone -->
+            <acticle class="contactGitHub">    
+                <img src="./assets/images/GitHub-Mark-120px-plus.png" alt="github icon" />
+                <h3>github</h3>
+                <!-- when hovered, change from github icon to portfolio landing page with professional headshot and .readme -->
+            </article>
+            <article class="contactBlurb">
+                <img src="./assets/images/schoolphoto.jpeg" alt="Batchelder's school photo" />
+                <p>I hope to hear from you soon to discuss how I can help acomplish your goals through coding the future.</p>
+            </article>
+        </aside>
     <footer>
 
     </footer>

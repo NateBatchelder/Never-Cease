@@ -1,0 +1,118 @@
+* {
+
+}
+
+body {
+
+}
+
+.header {
+
+}
+
+header h1 {
+
+}
+
+.header nav {
+
+}
+
+.header nav ul {
+
+
+}
+
+.header nav ul li {
+
+}
+
+a {
+    color: #fdf4e1;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+.landing-image {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/roadLessTraveled.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.neverCease,
+.work,
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gills Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #9ea0a1;
+    color: #fdf4e1;
+}
+
+.h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.never-cease img,
+.work img,
+.projects img{
+    max-height: 100px;
+}
+
+#project1 img {
+    max-height: 120px;
+}
+
+#project2 img,
+#project3 img {
+    max-height: 80px;
+}
+
+.contact {
+    position: sticky;
+    right: 0px;
+    bottom: 0px;
+    margin: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #b7d9b1;
+}
+
+.contactEmail,
+.contactPhone,
+.contactGitHub {
+    margin-bottom: 32px;
+    color: black;
+}
+
+.contactEmail h3,
+.contactPhone h3,
+.contactGitHub h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}

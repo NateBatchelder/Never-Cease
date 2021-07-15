@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Never Cease - the Portfolio of Nate Batchelder</title>
     <link rel="stylesheet" href="./assets/styles/reset.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles/style.css"> 
+    <title>Never Cease - the Portfolio of Nate Batchelder</title>  
 </head>
 
 <body>
     <section class="landingImage" alt="scenic panorama"></section>
-    <header class="header">
-        <h1>Nate Batchelder</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#neverCease">'Never Cease'</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#portfolioProjects">Portfolio Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
+        <!-- navbar changes at lg, color set to blue, theme set to light -->
+        <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">Nate Batchelder, MEd, NBCT</a>
+                <button 
+                    class="navbar-toggler" 
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navMenue"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navMenue" class="collapse navbar-collapse">
+                    <!-- navbar changes at medium size -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#neverCease" class="nav-link">'Never Cease'</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#experience" class="nav-link">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolioProjects" class="nav-link">Portfolio Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
         </nav>
     </header>
 
@@ -58,16 +71,16 @@
                 <br/>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo aperiam veniam quod provident sit cumque beatae nostrum ipsum, necessitatibus voluptas sunt ipsam maxime laudantium minima quo modi odio quibusdam debitis.</p>
             </article>
-
+            <br/>
             <article id="project2">
                 <img src="./assets/images/tessellation2.jpeg" alt="icon project 2" class="float-left"/>
                 <h3>Project 2</h3>
                 <br/>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti vel natus neque dolore quaerat laudantium delectus sequi accusamus veniam nemo nisi, iusto perferendis eveniet unde officia temporibus, distinctio hic. Quis commodi rerum iusto unde, tempore sit dignissimos quasi vitae laborum veritatis laudantium. Soluta tempora omnis, nesciunt debitis quia quos autem.</p>
             </article>
-            
+            <br/>            
             <article id="project3">
-                <img src="./assets/images/tessellation3.jpeg" alt="icon project 3" class="float-left"/>
+                <img src="./assets/images/tessellation2.jpeg" alt="icon project 3" class="float-left"/>
                 <h3>Project 3</h3>
                 <br/>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit cupiditate neque aliquid debitis fugiat modi quidem distinctio voluptatibus at tempora, consequuntur aliquam consequatur rerum enim illo autem molestiae, optio quaerat. Culpa velit nemo praesentium, non unde excepturi sapiente. Vel, illo?</p>
@@ -102,12 +115,13 @@
             <p>I hope to hear from you soon to discuss how I can help acomplish your goals through coding the future.</p>
         </article>
     </aside>
+    <br/>
     
     <footer class="footer">
         <h2>Desigined and Built by Nate Batchelder</h2>
         <p>&copy; 2021 Forked Lightning, LLC</p>
-
     </footer>
-    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

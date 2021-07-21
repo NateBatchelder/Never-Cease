@@ -32,5 +32,6 @@
 
 ## Acknowledgments
 
-* Special thanks my wife and best friend who reminds me that 'you have to climb the mountain to see the view'.
-* "When you drink water, thank those who dug the well".  To those who showed me I could make it.
+* Special thanks to my wife and best friend who reminds me that 'you have to climb the mountain to see the view'.
+
+* "When you drink water, thank those who dug the well".  To those who paved the way for me to follow.

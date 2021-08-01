@@ -1,7 +1,7 @@
 # neverCease
 # Nathan S. Batchelder - Portfolio
 
-<!-- This project is a web page for a company specializing in Search Engine Optimiziation (SEO).  Their site has three links in the header that go to article sections below their main image where they address the three chief functions of their company.  The main section of the web page is flanked to the right by an aside that that clearly deleniates the role and relationship between lead generation, brand awarness, and cost managment.   -->
+
 
 
 ## Getting Started
@@ -18,7 +18,7 @@
 
 ## Deployed Link
 
-<!-- * [See Live Site](file:///Users/nathanbatchelder/Desktop/homework-1/index.html) -->
+
 
 
 ## Authors
@@ -33,5 +33,3 @@
 ## Acknowledgments
 
 * Special thanks to my wife and best friend who reminds me that 'you have to climb the mountain to see the view'.
-
-* "When you drink water, thank those who dug the well".  To those who paved the way for me to follow.

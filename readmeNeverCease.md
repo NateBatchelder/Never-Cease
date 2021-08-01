@@ -56,8 +56,8 @@
 - [Link to LinkedIn](www.linkedin.com/in/nathan-batchelder/)
 
 
-  ## Acknowledgments
+## Acknowledgments
 
-  * Special thanks to my wife and best friend who reminds me that 'you have to climb the mountain to see the view'.
+* Special thanks to my wife and best friend who reminds me that 'you have to climb the mountain to see the view'.
 
 
